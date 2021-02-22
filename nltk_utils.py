@@ -5,13 +5,18 @@ Created on Sat Feb 20 16:02:18 2021
 @author: Samy Ayed
 """
 
+#import nltk
 from nltk.stem.porter import PorterStemmer
+from nltk.corpus import stopwords
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.preprocessing import LabelEncoder
 import unicodedata
 import pickle
 
 #nltk.download('punkt') # resource to download before using nltk library
+#nltk.download('stopwords')
+
+stopwords = stopwords.words('french')
 
 stemmer = PorterStemmer()
 encoder = LabelEncoder()
@@ -21,10 +26,11 @@ def stem(word):
     return stemmer.stem(word)
 
 def remove_accents(words):
-    return [unicodedata.normalize('NFKD', w).encode('ASCII', 'ignore').decode('utf-8').lower() for w in words]
+    return [unicodedata.normalize('NFKD', w).encode('ASCII', 'ignore').decode('utf-8') for w in words]
 
 def preprocess_sentence(sentence):
     words = sentence.split(' ')
+    words = [w.lower() for w in words if w.lower() not in stopwords]
     words = [stem(w) for w in words]
     words = remove_accents(words)
     sentence = ' '.join(words)
@@ -46,7 +52,7 @@ def vectorize(df):
     """
     X_train = vect.fit_transform(df['Pattern']).toarray()
     y_train = encoder.fit_transform(df['Tag'])
-    with open('vect.pkl','wb') as f_out: # Save the vectorizer object in a pickled file (serialization)
+    with open('vect.pkl','wb') as f_out: # Save the vectorizer object in a pickle file (serialization)
         pickle.dump(vect, f_out)
     return X_train, y_train
 

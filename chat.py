@@ -27,13 +27,12 @@ hidden2 = data['hidden2']
 n_outputs = data['n_outputs']
 model_state = data["model_state"]
 tags = data["tags"]
-tags = sorted(set(tags.reshape(-1)))
 model = Net([n_inputs,hidden1,hidden2,n_outputs])
 model.load_state_dict(model_state)
 model.eval()
 
 bot_name = "Assistant"
-print("Un assistant est là pour répondre à toutes vos questions au sujet du Coronavirus. Ecrivez 'stop' pour quitter la discussion.")
+print("Un assistant virtuel est là pour répondre à toutes vos questions au sujet du Coronavirus. Ecrivez 'stop' pour quitter la discussion.")
 
 while True:
     sentence = input("Vous: ")
@@ -49,7 +48,7 @@ while True:
     prob = torch.max(probs) # max probability gives us the strength of the prediction and indicates how much we can be confident
     tag = tags[yhat]
     print(probs)
-    print(prob)  
+    print(prob)
     print(tag)
     if prob.item() < 0.75:
         print(f"{bot_name}: Je ne comprends pas...")

@@ -15,7 +15,7 @@
         "Bonjour, je suis là pour répondre à toutes vos questions :-)",
         "Bonjour, je suis à votre écoute pour toute question :-)",
         "Bonjour, comment puis-je vous aider ?",
-        "Bonjour, laissez-moi éclairer toutes vos interrogations sur le Coronavirus :-)"
+        "Bonjour, laissez-moi éclairer toutes vos interrogations à propos du Coronavirus :-)"
       ]
     },
     {
@@ -68,7 +68,7 @@
         "Comment bien porter le masque ?"
       ],
       "responses": [
-        "Les masques de protection, également appelés masque anti-virus, masque à usage médical, masque \"chirurgical\" ou encore masque anatomique sont un dispositif médical destiné à filtrer les bactéries et à éviter de contracter un virus, comme celui de la grippe, du coronavirus ou de toute autre maladie virale.\n Avant de mettre ou enlever le masque, lavez-vous les mains avec de l’eau et du savon ou une solution hydro-alcoolique.\n Pour le mettre : tenez le masque par les lanières élastiques - ajustez le masque de façon à recouvrir le nez, la bouche et le menton.\n Pour l’enlever : - décrochez les lanières élastiques pour décoller le masque de votre visage.\n Il faut changer le masque : - quand vous avez porté le masque 4h - quand vous souhaitez boire ou manger - si le masque s’humidifie - si le masque est endommagé."
+        "Les masques de protection, également appelés masque anti-virus, masque à usage médical, masque \"chirurgical\" ou encore masque anatomique sont un dispositif médical destiné à filtrer les bactéries et à éviter de contracter un virus, comme celui de la grippe, du coronavirus ou de toute autre maladie virale.\nAvant de mettre ou enlever le masque, lavez-vous les mains avec de l’eau et du savon ou une solution hydro-alcoolique.\nPour le mettre : tenez le masque par les lanières élastiques - ajustez le masque de façon à recouvrir le nez, la bouche et le menton.\nPour l’enlever : - décrochez les lanières élastiques pour décoller le masque de votre visage.\nIl faut changer le masque : - quand vous avez porté le masque 4h - quand vous souhaitez boire ou manger - si le masque s’humidifie - si le masque est endommagé."
       ]
     },
     {
@@ -92,7 +92,7 @@
         "C'est quoi une pandémie ?"
       ],
       "responses": [
-        "La pandémie de Covid-19 est une pandémie d'une maladie infectieuse émergente, appelée la maladie à coronavirus 2019 ou Covid-19, provoquée par le coronavirus SARS-CoV-2, apparue à Wuhan le 16 novembre 2019, dans la province de Hubei (en Chine centrale), avant de se propager dans le monde.\n Les coronavirus forment une famille de virus variés (Coronaviridae) qui peuvent infecter aussi bien l'homme que l'animal. Leur nom signifie \"virus en couronne\" et vient du fait qu'ils possèdent tous un aspect en forme de couronne lorsqu'ils sont observés au microscope. Les coronavirus ont été identifiés pour la première fois chez l'humain dans les années 1960. Les coronavirus humains causent principalement des infections respiratoires, allant du rhume sans gravité à des pneumopathies sévères parfois létales. Ils peuvent aussi s'accompagner de troubles digestifs tels que des gastro-entérites."
+        "La pandémie de Covid-19 est une pandémie d'une maladie infectieuse émergente, appelée la maladie à coronavirus 2019 ou Covid-19, provoquée par le coronavirus SARS-CoV-2, apparue à Wuhan le 16 novembre 2019, dans la province de Hubei (en Chine centrale), avant de se propager dans le monde.\nLes coronavirus forment une famille de virus variés (Coronaviridae) qui peuvent infecter aussi bien l'homme que l'animal. Leur nom signifie \"virus en couronne\" et vient du fait qu'ils possèdent tous un aspect en forme de couronne lorsqu'ils sont observés au microscope. Les coronavirus ont été identifiés pour la première fois chez l'humain dans les années 1960. Les coronavirus humains causent principalement des infections respiratoires, allant du rhume sans gravité à des pneumopathies sévères parfois létales. Ils peuvent aussi s'accompagner de troubles digestifs tels que des gastro-entérites."
       ]
     },
     {
@@ -115,7 +115,7 @@
         "Couvre-feu"
       ],
       "responses": [
-        "Le 14 janvier 2021, le Premier ministre a annoncé l’avancée du couvre-feu de 20h00 à 18h00 sur l’ensemble du territoire métropolitain à partir du samedi 16 janvier 2021 pour une durée minimum de 15 jours. Cette décision a été prolongée d’une semaine supplémentaire, le vendredi 29 janvier. L’objectif du couvre-feu est de limiter les rassemblements durant lesquels les mesures barrières sont moins bien appliquées et où le virus circule rapidement tout en limitant l’impact sur l’économie déjà mise à rude épreuve par l’épidémie.\n Sur l’ensemble du territoire métropolitain, les sorties et déplacements sont interdits pendant le couvre-feu, sous peine d’une amende de 135 € et jusqu’à 3 750 € en cas de récidive. Il n’y a pas de fermeture des transports en commun, notamment pour permettre de répondre aux besoins des dérogations mais le télétravail généralisé doit être privilégié. Tous les établissements autorisés à ouvrir ne pourront plus accueillir de public après 18h00. Les établissements culturels ainsi que les bars et restaurants restent fermés."
+        "Le 14 janvier 2021, le Premier ministre a annoncé l’avancée du couvre-feu de 20h00 à 18h00 sur l’ensemble du territoire métropolitain à partir du samedi 16 janvier 2021 pour une durée minimum de 15 jours. Cette décision a été prolongée d’une semaine supplémentaire, le vendredi 29 janvier. L’objectif du couvre-feu est de limiter les rassemblements durant lesquels les mesures barrières sont moins bien appliquées et où le virus circule rapidement tout en limitant l’impact sur l’économie déjà mise à rude épreuve par l’épidémie.\nSur l’ensemble du territoire métropolitain, les sorties et déplacements sont interdits pendant le couvre-feu, sous peine d’une amende de 135 € et jusqu’à 3 750 € en cas de récidive. Il n’y a pas de fermeture des transports en commun, notamment pour permettre de répondre aux besoins des dérogations mais le télétravail généralisé doit être privilégié. Tous les établissements autorisés à ouvrir ne pourront plus accueillir de public après 18h00. Les établissements culturels ainsi que les bars et restaurants restent fermés."
       ]
     },
     {
@@ -125,7 +125,7 @@
         "Quelles sont les dérogations pour se déplacer ?"
       ],
       "responses": [
-        "Des dérogations sont prévues sur présentation d'une attestation pour les motifs suivants :\n - Déplacements entre le domicile et le lieu d'exercice de l'activité professionnelle ou le lieu d'enseignement et de formation ;\n - Déplacements pour des consultations et soins ne pouvant être assurés à distance et ne pouvant être différés ou pour l'achat de produits de santé ;\n - Déplacements pour motif familial impérieux, pour l'assistance aux personnes vulnérables ou précaires ou pour la garde d'enfants ; pour convocation judiciaire ou administrative ;\n - Déplacements pour répondre à une convocation judiciaire ou administrative ;\n - Déplacements pour participer à des missions d'intérêt général ;\n - Déplacements liés à des transits pour des déplacements de longues distances ;\n - Déplacements brefs, dans un rayon maximal d'un kilomètre autour du domicile pour les besoins des animaux de compagnie.\n Les attestations dérogatoires sont disponibles en ligne."
+        "Des dérogations sont prévues sur présentation d'une attestation pour les motifs suivants :\n- Déplacements entre le domicile et le lieu d'exercice de l'activité professionnelle ou le lieu d'enseignement et de formation ;\n- Déplacements pour des consultations et soins ne pouvant être assurés à distance et ne pouvant être différés ou pour l'achat de produits de santé ;\n- Déplacements pour motif familial impérieux, pour l'assistance aux personnes vulnérables ou précaires ou pour la garde d'enfants ; pour convocation judiciaire ou administrative ;\n- Déplacements pour répondre à une convocation judiciaire ou administrative ;\n- Déplacements pour participer à des missions d'intérêt général ;\n- Déplacements liés à des transits pour des déplacements de longues distances ;\n- Déplacements brefs, dans un rayon maximal d'un kilomètre autour du domicile pour les besoins des animaux de compagnie.\nLes attestations dérogatoires sont disponibles en ligne."
       ]
     }
     

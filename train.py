@@ -4,7 +4,7 @@ Created on Sat Feb 20 16:29:20 2021
 
 @author: Samy Ayed
 """
-from nltk_utils import stem, remove_accents, vectorize
+from nltk_utils import preprocess_sentence, vectorize
 import numpy as np
 import pandas as pd
 import json
@@ -22,16 +22,13 @@ tags = np.array([]) # sentences' categories
 
 for intent in intents['intents']:
     for pattern in intent['patterns']:
-        #pattern = preprocess_sentence(pattern)
-        words = pattern.split(' ')
-        words = [stem(w) for w in words]
-        words = remove_accents(words)
-        pattern = ' '.join(words)
+        pattern = preprocess_sentence(pattern)
         patterns = np.append(patterns, pattern)
         tags = np.append(tags, intent['tag'])
 patterns = patterns.reshape((-1,1))
 tags = tags.reshape((-1,1))     
 xy = np.concatenate((patterns,tags),axis=1)
+unique_tags = sorted(set(tags.reshape(-1)))
 
 df = pd.DataFrame(xy,columns=['Pattern','Tag'])
 
@@ -89,7 +86,7 @@ data = {
         'hidden2':hidden2,
         'n_outputs': n_outputs,
         'model_state': model.state_dict(),
-        'tags': tags
+        'tags': unique_tags
         }
 
 FILE = "data.pth"
