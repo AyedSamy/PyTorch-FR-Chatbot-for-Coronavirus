@@ -12,5 +12,5 @@ As of now, the intents our French Chatbot can understand are the following : *ai
 The current version of the app can be run on **CLI** via the following command:
 
 ```python
-python chat.py
+python cli-chat.py
 ```
