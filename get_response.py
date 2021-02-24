@@ -2,7 +2,7 @@
 """
 Created on Tue Feb 23 12:34:45 2021
 
-@author: PC-IDs
+@author: Samy Ayed
 """
 from nltk_utils import preprocess_sentence, vectorize_new
 from model import Net
