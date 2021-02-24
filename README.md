@@ -13,6 +13,4 @@ The current version of the app can be run on **CLI** via the following procedure
 
 `pip install -r requirements.txt`
 
-```python
-python cli-chat.py
-```
+`python cli-chat.py`
