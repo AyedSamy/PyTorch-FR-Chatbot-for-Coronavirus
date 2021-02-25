@@ -9,8 +9,8 @@ Each intent gathers a few **patterns** (questions) written by users about differ
 
 As of now, the intents our French Chatbot can understand are the following : *aide psychologique*, *au revoir*, *coronavirus*, *couvre-feu*, *dépistage*, *déplacement*, *gestes barrières*, *merci*, *port du masque*, *salutation*, *symptômes*.
 
-The current version of the app can be run on **CLI** via the following command:
+The current version of the app can be run on **CLI** via the following procedure:
 
-```python
-python chat.py
-```
+`pip install -r requirements.txt`
+
+`python cli-chat.py`
