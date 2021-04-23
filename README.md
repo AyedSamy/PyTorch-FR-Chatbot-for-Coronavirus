@@ -9,8 +9,12 @@ Each intent gathers a few **patterns** (questions) written by users about differ
 
 As of now, the intents our French Chatbot can understand are the following : *aide psychologique*, *au revoir*, *coronavirus*, *couvre-feu*, *dépistage*, *déplacement*, *gestes barrières*, *merci*, *port du masque*, *salutation*, *symptômes*.
 
-The current version of the app can be run on **CLI** via the following procedure:
+A simple version of the app can be run on **CLI** via the following procedure:
 
 `pip install -r requirements.txt`
 
 `python cli-chat.py`
+
+## Web Application
+
+Afterward, a more sophisticated version of the app has been built using **Flask** framework and is now available on **Heroku** : https://fr-coronavirus-chatbot.herokuapp.com/
